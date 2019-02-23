@@ -5,5 +5,5 @@ workflow "run forest run" {
 
 action "run it" {
   uses = "docker://docker"
-  runs = "echo run forest run"
+  runs = "docker run alpine echo hello world"
 }
