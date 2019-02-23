@@ -1,4 +1,5 @@
 workflow "run forest run" {
+  on = "push"
   resolves = "run it"
 }
 
